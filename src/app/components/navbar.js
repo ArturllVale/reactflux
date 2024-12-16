@@ -1,8 +1,8 @@
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar = ({ toggleTheme }) => {
+const Navbar = () => {
 
     const [nav, setNav] = useState(false);
 
